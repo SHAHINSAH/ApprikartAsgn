@@ -1,0 +1,69 @@
+.Size {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: .5rem;
+    position: relative;
+    ;
+}
+
+.SizeDisplay {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.SizeDisplay>h5 {
+    color: rgb(129, 6, 6);
+}
+
+.SizeDisplay>h5>strong {
+    color: rgb(14, 68, 103);
+}
+
+.SizeDisplay>p {
+    font-size: .7rem;
+    font-weight: 700;
+    color: rgb(14, 68, 103);
+    text-decoration: underline;
+}
+
+.SelectSize {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .5rem;
+}
+
+.unactive {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(218, 214, 214);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    color: rgb(7, 7, 7);
+
+}
+
+.sizeActive {
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(90, 7, 7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(129, 6, 6);
+
+}

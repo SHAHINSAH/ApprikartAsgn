@@ -1,0 +1,187 @@
+.Home {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.CouselSec {
+    position: relative;
+    width: 60%;
+    height: 100%;
+
+}
+
+.DetailsSec {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    padding: 20px;
+    padding-top: 170px;
+    margin-right: 2rem;
+}
+
+.ColorSec {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.ColorChose {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    color: rgb(14, 68, 103);
+    font-size: .8rem;
+    font-weight: 800;
+}
+
+.ColorImage {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem
+}
+
+.unactivecol {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border: 1px solid rgb(218, 214, 214);
+    cursor: pointer;
+    outline: none;
+}
+
+.activecol {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border: 2px solid rgb(95, 5, 5);
+    cursor: pointer;
+    outline: rgb(95, 5, 5);
+}
+
+.HeadingSec {
+    width: 100%;
+    text-align: start;
+    gap: .2rem;
+}
+
+.HeadingSec>h2 {
+    font-size: 1.3rem;
+    font-weight: 900;
+    font-style: italic;
+    color: rgb(6, 102, 166);
+    margin-bottom: 10px;
+
+}
+
+.HeadingSec>h3 {
+    font-weight: 800;
+    color: rgb(6, 102, 166);
+    margin: 0;
+    margin-bottom: 10px;
+
+}
+
+.HeadingSec>h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(217, 15, 15);
+    margin: 0;
+}
+
+.HeadingSec>p {
+    font-size: .7rem;
+    font-weight: 800;
+    color: rgb(180, 175, 175);
+    letter-spacing: .001rem;
+    margin: 0;
+
+}
+
+.HeadingSec>p>span {
+    text-decoration: line-through;
+}
+
+.HeadingSec>p>strong {
+    color: rgb(188, 15, 15);
+}
+
+.buttonSec {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: .2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.buttonSec>p {
+    width: 100%;
+    font-size: .8rem;
+    font-weight: 600;
+    color: rgb(28, 148, 148);
+    margin: 0;
+}
+
+.buttonSec>button {
+    width: 100%;
+    margin: 0;
+    height: 30px;
+    background-color: red;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: .7rem;
+    font-weight: 700;
+    color: #dbd9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 780px) {
+    .Home {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .CouselSec {
+        position: relative;
+        width: 280px;
+        height: 400px;
+        padding: 05px;
+        gap: .2rem;
+    }
+
+    .CouselSec>Crousel {
+        width: 280px;
+        height: 400px;
+    }
+
+    .DetailsSec {
+        position: relative;
+        width: 100%;
+        height: 25px;
+        padding: 20px;
+        padding-top: 10px;
+        margin: 0;
+    }
+}
